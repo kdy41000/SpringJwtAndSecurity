@@ -3,7 +3,6 @@ package com.jwt.server.config;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import com.jwt.server.filter.MyFilter1;
 import com.jwt.server.filter.MyFilter2;
